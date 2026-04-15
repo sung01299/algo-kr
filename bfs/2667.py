@@ -17,7 +17,7 @@ num = 0
 directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
 
 def bfs(x, y):
-    Q = deque()
+    Q = deque() 
     Q.append((x, y))
     visited[x][y] = True
 
