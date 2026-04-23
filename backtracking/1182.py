@@ -1,6 +1,6 @@
 n, s = map(int, input().split())
 nums = list(map(int, input().split()))
-
+ 
 cnt = 0
 arr = [0 for _ in range(n)]
 
